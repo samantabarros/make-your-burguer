@@ -1,19 +1,35 @@
 <template>
     <div id="nav">
         <router-link to="/">
-            <img src="" id="logo" >
-        </router-link>
+            <img :src= "logo" :alt= "alt" id="logo" >
+        </router-link> 
         <router-link to="/">Home</router-link> |
         <router-link to="/pedidos">Pedidos</router-link>
     </div>
 </template>
 
 <script>
-export default{
-    name : "Navbar"
+export default {
+    name : "Navbar",
+    props : ["logo", "alt"]
 }
 </script>
 
 <style scoped>
+    #nav{
+        background-color: black;
+        border-bottom: 4px solid #111;
+        padding: 15px 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    #logo-url{
+        margin: auto;
+        margin-left: 0;
+
+    }
 
 </style>
