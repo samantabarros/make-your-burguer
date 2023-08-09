@@ -1,5 +1,7 @@
 <template>
-  <p> Footer </p>
+  <footer id="footer">
+    <p>Make Your Burguer &copy; 2023</p>
+  </footer>
 </template>
 
 <script>
@@ -9,5 +11,15 @@ export default{
 </script>
 
 <style scoped>
+  #footer {
+    display:flex;
+    background-color: black;
+    border-top: 4px solid #111;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    color: #FCBA03;
+  }
 
 </style>
