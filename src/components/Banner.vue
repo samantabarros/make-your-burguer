@@ -29,4 +29,16 @@ export default{
         padding: 20px 40px;
     }
 
+    @media screen and (max-width: 768px){
+        #main-banner{
+            display: block;
+            width: 50vm;
+        }
+
+        #main-banner h1{
+            display: flex;
+            font-size: 30px;
+        }
+    }
+
 </style>
