@@ -68,6 +68,7 @@ export default{
 
             const data = {
                 nome: this.nome,
+                pao: this.pao,
                 carne: this.carne,
                 opcionais: Array.from(this.opcionais),
                 status: "Solicitado"

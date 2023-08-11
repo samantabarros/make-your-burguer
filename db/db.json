@@ -87,7 +87,7 @@
         "Salame",
         "Cebola roxa"
       ],
-      "status": "Finalizado",
+      "status": "Solicitado",
       "id": 1
     },
     {
@@ -99,87 +99,33 @@
         "Cebola roxa"
       ],
       "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "Teste de Teste",
-      "carne": "Veggie burger",
-      "opcionais": [
-        "opcional.tipo"
-      ],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "Teste de Teste",
-      "carne": "Veggie burger",
-      "opcionais": [
-        "opcional.tipo"
-      ],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
-      "nome": "Samanta",
-      "carne": "Maminha",
-      "opcionais": [
-        "opcional.tipo"
-      ],
-      "status": "Solicitado",
-      "id": 7
+      "id": 2
     },
     {
       "nome": "Teste",
-      "carne": "Picanha",
-      "opcionais": [
-        "Tomate",
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 8
-    },
-    {
-      "nome": "Ana",
+      "pao": "Italiano Branco",
       "carne": "Maminha",
       "opcionais": [
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 9
-    },
-    {
-      "nome": "Sam",
-      "carne": "Veggie burger",
-      "opcionais": [
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 10
-    },
-    {
-      "nome": "Maria",
-      "carne": null,
-      "opcionais": [
-        "Bacon"
+        "Salame"
       ],
       "status": "Solicitado",
       "id": 11
     },
     {
-      "nome": "Bela",
-      "carne": null,
+      "nome": "Zeca",
+      "pao": "Italiano Branco",
+      "carne": "Alcatra",
       "opcionais": [
-        "Cheddar",
-        "Cebola roxa",
-        "Tomate"
+        "Bacon",
+        "Cheddar"
       ],
       "status": "Solicitado",
       "id": 12
     },
     {
-      "nome": "Dora",
-      "carne": "Picanha",
+      "nome": "Isa Santos",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
       "opcionais": [
         "Bacon",
         "Cebola roxa",
@@ -187,17 +133,6 @@
       ],
       "status": "Solicitado",
       "id": 13
-    },
-    {
-      "nome": "Luciana ",
-      "carne": "Alcatra",
-      "opcionais": [
-        "Bacon",
-        "Tomate",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 14
     }
   ]
 }

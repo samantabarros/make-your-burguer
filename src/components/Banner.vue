@@ -4,7 +4,6 @@
     </div> 
 </template>
 
-
 <script>
 export default{
     name: "Banner"
@@ -15,10 +14,11 @@ export default{
     #main-banner{
         background-image: url('/public/img/burger.jpg');
         background-size: cover;
-        background-position: 0 -250px;
+        background-position: center;
         display: flex;
         align-items: center;
-        height: 500px;
+        height: 90vh;
+        width: 100%;
         justify-content: flex-start;
     }
 
